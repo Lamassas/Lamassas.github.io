@@ -1,0 +1,57 @@
+h1{
+    color: green;
+    text-align: center;
+}
+h2{
+    color: green;
+    font-size: medium;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+p{
+    font-size: medium;
+    font-style: normal;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    
+}
+video{
+    display: block;
+    margin: auto;
+    width: 480px;
+    height: auto;   
+}
+/*div{
+    border-radius: 5px;
+  }
+  .conteneur-flexible{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border: 2px solid green;
+    margin-bottom: 20px;
+    background-color: RGBa(120,0,240,0.1)
+  }
+  .element-flexible{
+    width: 50px;
+    height: 50px;
+    background-color: #0AD;
+    margin: 10px;
+
+  }*/
+  /*figure{
+    border: 1px solid green;
+    padding: 5px;
+    width: 300px;;
+  }
+  figcaption{
+    background-color: white;
+    color: green;
+    text-align: center;
+    font-style: italic;
+  }*/

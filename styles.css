@@ -1,0 +1,129 @@
+nav ul{
+    list-style-type: none;
+}
+
+
+nav ul ::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(112, 218, 112);
+    top: 0px;
+}
+
+nav a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 1px 0px;
+}
+
+body{
+   
+    color:black;
+    background-color:white;
+    background-image: url(immg.jpg);
+    background-attachment:fixed;
+ }
+
+#principal{
+width: 1000px;
+height: 800px;
+display: block;
+margin: auto;
+
+}
+#entete{
+background-color: beige;
+width: 1000px;
+height: 200px;
+
+}
+
+#contenu{
+background-color: white;
+ width: 1000px;
+height: auto;
+padding-top: 10px;
+
+}
+#piedpage{
+    background-color: rgb(112, 218, 112);
+width: 1000px;
+height: 50px;
+}
+table, tr, td{
+    border: 1px solid;
+    margin: auto;
+    display: -ms-flexbox;
+}
+.diapo {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-contenu {
+    width: 1500px;
+    background-color: white;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-contenu {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-contenu {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-contenu {
+    left: -1000px;
+  }
+
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(106, 167, 106);
+  }
+footer{
+  font-size: medium;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
